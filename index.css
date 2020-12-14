@@ -1,0 +1,70 @@
+body {
+    background-color: blue;
+}
+
+h1{
+color: white;
+justify-content: center;
+text-align: center;
+font-size: 40px;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    
+}
+
+
+
+.star-list {
+margin: 20px;
+width: 100%;
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+
+.star-list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15px;
+    margin-bottom: 20px;  
+    width: 180px; 
+}
+
+.star-list img {
+    height:200px;
+    width: 180px;
+    margin-bottom: 10px;
+}
+
+.star-list button {
+    width: 100%;
+    color: darkblue;
+    background-color: white;
+}
+
+.star-details {
+margin: 40px auto;
+display: flex;
+flex-direction: column;
+color: darkblue;
+
+}
+
+.star-details img {
+    height:auto;
+    width: 400px;
+    margin-bottom: 10px;
+
+}
+
+
+
+
+
+
+
