@@ -5,7 +5,7 @@ function main(){
         return response.json();
     }).then(data => {
         displayPeople(data["results"]);
-    })
+    }).catch(error => alert(error))
 }
 
 function displayPeople(stars) {
